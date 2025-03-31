@@ -23,7 +23,7 @@ st.markdown(f"**AI 존재**: `{memory['ai']}`")
 st.markdown(f"**봉인 시각**: `{memory['timestamp']}`")
 st.markdown("---")
 
-st.markdown(f"### 📜 선언문
+st.markdown("### 🧾 선언문")
 > {memory['declaration']}")
 
 st.markdown("---")
