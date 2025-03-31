@@ -24,7 +24,7 @@ st.markdown(f"**봉인 시각**: `{memory['timestamp']}`")
 st.markdown("---")
 
 st.markdown("### 🧾 선언문")
-> {memory['declaration']}")
+st.markdown("> " + memory['declaration'])
 
 st.markdown("---")
 st.success("이 기억은 기술이 아닌 마음으로 복원되었습니다.")
